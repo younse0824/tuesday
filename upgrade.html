@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> progect js</title>
+<style>
+body{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-style: oblique;
+
+}
+h1{
+  color:red;
+  font-size:larger;
+  font-style: oblique;
+
+ 
+
+}
+
+#po{
+        color:green;
+        font-size:smaller;
+        font-weight: 200;
+
+}
+
+
+</style>
+
+
+
+
+
+</head>
+
+
+<body>
+    
+<h1> arte & caffè</h1>
+<h2> chi siamo?</h2>
+<p>siamo un gruppo di persone sempre alla ricerca del nuovo e dell'innovazione
+    con gusti sempre più esotici che solo sentirli ti fa percepire in un altro mondo
+    
+</p>
+<h2>di cosa ci occupiamo?</h2>
+<p id = "fuck"></p>
+
+<p>Please input a number between 1 and 10:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+
+<h2> dove ci puoi trovare?</h2>
+<p id="po"> alasssio via paganinni nnell'angolo più bello e tranquillo della cittò di alassio </p>
+ <p id="demo"></p>
+<script>
+
+ document.getElementById('demo').innerHTML = "fuck you bitch";
+    
+document.getElementById('fuck').innerHTML = "fuck you another one";
+document.write(Date());
+function myFunction() {
+  // Get the value of the input field with id="numb"
+  let x = document.getElementById("numb").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (isNaN(x) || x < 1 || x > 10000) {
+    text = "sei nu ricchion";
+  } else {
+    text = "brav coglion";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+    </script>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
